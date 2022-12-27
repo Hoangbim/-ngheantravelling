@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: rgb(134, 134, 134);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.row {
+  max-width: 100%;
+}
+.box {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 40px;
+}
+button {
+  margin-top: 5%;
+}
+table {
+  width: 70%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+td {
+  border: solid;
+  border-color: rgb(90, 89, 89);
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: none;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.menu-left {
+  float: left;
+  padding: 20px 10px 20px 0;
+}
+.menu-right {
+  float: right;
+  padding: 20px 10px 20px 0;
+}
+
+.header li {
+  list-style-type: none;
+}
+.header a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+.img-note {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-style: italic;
+}
+footer {
+  padding-bottom: 5%;
+  background-color: beige;
+  width: 100%;
+  padding: 5% 10%;
+}
+footer a {
+  color: blue;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+  .header {
+    background-color: rgb(255, 255, 255);
+  }
+  .header a {
+    color: rgb(129, 129, 129);
+  }
+  .banner {
+    height: 150px;
+  }
+  .bg-img {
+    display: none;
+  }
+  .img-box {
+    padding: 0;
+    margin: 0;
+  }
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* For tablets: */
+  .header {
+    background-color: rgb(255, 255, 255);
+  }
+  .header a {
+    color: rgb(245, 243, 243);
+  }
+  .bg-img {
+    display: none;
+  }
+  .banner {
+    border-bottom: 1px solid rgb(87, 87, 87);
+  }
+  .banner-content {
+    padding: 0 0 10px 20px;
+  }
+  .article-content {
+    padding: 0 0 10px 20px;
+  }
+  .img-box img {
+    margin: 10px;
+  }
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 991px) {
+  /* For tablets: */
+  .header {
+    background-color: rgb(255, 255, 255);
+  }
+  .header ul {
+    padding: 0 40px 0 40px;
+  }
+  .header a {
+    color: rgb(151, 151, 151);
+  }
+  .bg-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .banner {
+    background-color: rgb(164, 168, 168);
+  }
+  .banner-content {
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    color: aliceblue;
+  }
+  .article {
+    background-color: rgb(164, 168, 168);
+  }
+
+  .article h1,
+  .article p {
+    margin: 0;
+    padding: 10px 0 10px 30px;
+  }
+  .img-box img {
+    margin: 10px;
+  }
+  .img-invite {
+    padding-right: 15px;
+  }
+  .footer {
+    background-color: rgb(205, 209, 209);
+  }
+  .footer .box {
+    padding-left: 30px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
